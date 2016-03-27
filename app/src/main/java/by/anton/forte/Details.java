@@ -7,7 +7,7 @@ import android.view.Surface;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 
-public class Details extends ImageDownloader {
+public class Details extends Base {
     public static final String URL = "URL";
 
     @Override

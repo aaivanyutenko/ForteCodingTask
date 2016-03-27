@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 
-public class Main extends ImageDownloader {
+public class Main extends Base {
     private static final String SELECTED = "SELECTED";
     private static final boolean FIT_HEIGHT = false;
     private SparseArray<View> group = new SparseArray<>();
