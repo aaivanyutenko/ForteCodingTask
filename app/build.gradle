@@ -3,6 +3,8 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 23
     buildToolsVersion "24.0.0 rc2"
+    // switch to this for work with stable version of build tools
+    // buildToolsVersion "23.0.3"
 
     defaultConfig {
         applicationId "by.anton.forte"
